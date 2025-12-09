@@ -95,7 +95,7 @@ def main() -> None:
 
     args = TrainingArguments(
         output_dir=RESULTS_DIR,
-        num_train_epochs=5,
+        num_train_epochs=8,
         per_device_train_batch_size=BATCH_SIZE,
         per_device_eval_batch_size=BATCH_SIZE,
         gradient_accumulation_steps=GRAD_ACCUM,
