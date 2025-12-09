@@ -1,0 +1,48 @@
+# Python cache and build
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+*.log
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+myenv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Hugging Face / datasets caches
+cache*/
+**/.cache/
+**/datasets-arrow-*/
+
+# Processed data and large artifacts
+data/processed/
+results/**/checkpoint-*/
+results/**/model/
+results/**/adapter/
+
+# Reports that can be regenerated
+results/**/metrics.json
+results/**/train_runtime.txt
+results/**/gpu_memory.txt
+results/**/classification_report.txt
+results/**/confusion_matrix.png
+results/comparisons/*.png
+results/comparisons/summary.csv
